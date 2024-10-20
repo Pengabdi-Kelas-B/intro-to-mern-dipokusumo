@@ -27,6 +27,8 @@ async function fetchPokemonDetail(url) {
     const response = await axios.get(url);
     const data = response.data;
 
+    const evolutionChain = await fetchEvolutionChain(data.species.url);
+
     return {
       id: data.id,
       name: data.name,
@@ -38,11 +40,41 @@ async function fetchPokemonDetail(url) {
         latest: `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/${data.id}.ogg`,
         legacy: `https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/${data.id}.ogg`,
       },
-      evolutionChains: [data.name], // Dummy value karena data evolusi perlu fetch lagi dari API evolusi
+      evolutionChains: evolutionChain
     };
   } catch (error) {
     console.error(`Gagal fetch detail untuk ${url}:`, error);
     return null;
+  }
+}
+
+async function fetchEvolutionChain(speciesUrl) {
+  try {
+    const speciesResponse = await axios.get(speciesUrl);
+    const evolutionChainUrl = speciesResponse.data.evolution_chain.url;
+
+    const evolutionResponse = await axios.get(evolutionChainUrl);
+    const chain = evolutionResponse.data.chain;
+
+    const evolutionNames = [];
+    parseEvolutionChain(chain, evolutionNames);
+
+    return evolutionNames;
+  } catch (error) {
+    console.error(`Gagal fetch evolution chain dari ${speciesUrl}:`, error);
+    return [];
+  }
+}
+
+function parseEvolutionChain(chain, evolutionNames) {
+  if (!chain) return;
+
+  evolutionNames.push(chain.species.name);
+
+  if (chain.evolves_to.length > 0) {
+    chain.evolves_to.forEach((evolution) =>
+      parseEvolutionChain(evolution, evolutionNames)
+    );
   }
 }
 

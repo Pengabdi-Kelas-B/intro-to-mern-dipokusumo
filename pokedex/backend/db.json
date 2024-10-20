@@ -18,7 +18,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/1.ogg"
             },
             "evolutionChains": [
-                "bulbasaur"
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
             ]
         },
         {
@@ -39,7 +41,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/2.ogg"
             },
             "evolutionChains": [
-                "ivysaur"
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
             ]
         },
         {
@@ -60,6 +64,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/3.ogg"
             },
             "evolutionChains": [
+                "bulbasaur",
+                "ivysaur",
                 "venusaur"
             ]
         },
@@ -80,7 +86,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/4.ogg"
             },
             "evolutionChains": [
-                "charmander"
+                "charmander",
+                "charmeleon",
+                "charizard"
             ]
         },
         {
@@ -100,7 +108,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/5.ogg"
             },
             "evolutionChains": [
-                "charmeleon"
+                "charmander",
+                "charmeleon",
+                "charizard"
             ]
         },
         {
@@ -121,6 +131,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/6.ogg"
             },
             "evolutionChains": [
+                "charmander",
+                "charmeleon",
                 "charizard"
             ]
         },
@@ -141,7 +153,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/7.ogg"
             },
             "evolutionChains": [
-                "squirtle"
+                "squirtle",
+                "wartortle",
+                "blastoise"
             ]
         },
         {
@@ -161,7 +175,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/8.ogg"
             },
             "evolutionChains": [
-                "wartortle"
+                "squirtle",
+                "wartortle",
+                "blastoise"
             ]
         },
         {
@@ -181,6 +197,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/9.ogg"
             },
             "evolutionChains": [
+                "squirtle",
+                "wartortle",
                 "blastoise"
             ]
         },
@@ -201,7 +219,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/10.ogg"
             },
             "evolutionChains": [
-                "caterpie"
+                "caterpie",
+                "metapod",
+                "butterfree"
             ]
         },
         {
@@ -220,7 +240,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/11.ogg"
             },
             "evolutionChains": [
-                "metapod"
+                "caterpie",
+                "metapod",
+                "butterfree"
             ]
         },
         {
@@ -241,6 +263,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/12.ogg"
             },
             "evolutionChains": [
+                "caterpie",
+                "metapod",
                 "butterfree"
             ]
         },
@@ -262,7 +286,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/13.ogg"
             },
             "evolutionChains": [
-                "weedle"
+                "weedle",
+                "kakuna",
+                "beedrill"
             ]
         },
         {
@@ -282,7 +308,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/14.ogg"
             },
             "evolutionChains": [
-                "kakuna"
+                "weedle",
+                "kakuna",
+                "beedrill"
             ]
         },
         {
@@ -303,6 +331,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/15.ogg"
             },
             "evolutionChains": [
+                "weedle",
+                "kakuna",
                 "beedrill"
             ]
         },
@@ -325,7 +355,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/16.ogg"
             },
             "evolutionChains": [
-                "pidgey"
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
             ]
         },
         {
@@ -347,7 +379,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/17.ogg"
             },
             "evolutionChains": [
-                "pidgeotto"
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
             ]
         },
         {
@@ -369,6 +403,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/18.ogg"
             },
             "evolutionChains": [
+                "pidgey",
+                "pidgeotto",
                 "pidgeot"
             ]
         },
@@ -390,7 +426,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/19.ogg"
             },
             "evolutionChains": [
-                "rattata"
+                "rattata",
+                "raticate"
             ]
         },
         {
@@ -411,6 +448,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/20.ogg"
             },
             "evolutionChains": [
+                "rattata",
                 "raticate"
             ]
         },
@@ -432,7 +470,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/21.ogg"
             },
             "evolutionChains": [
-                "spearow"
+                "spearow",
+                "fearow"
             ]
         },
         {
@@ -453,6 +492,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/22.ogg"
             },
             "evolutionChains": [
+                "spearow",
                 "fearow"
             ]
         },
@@ -474,7 +514,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/23.ogg"
             },
             "evolutionChains": [
-                "ekans"
+                "ekans",
+                "arbok"
             ]
         },
         {
@@ -495,6 +536,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/24.ogg"
             },
             "evolutionChains": [
+                "ekans",
                 "arbok"
             ]
         },
@@ -515,7 +557,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/25.ogg"
             },
             "evolutionChains": [
-                "pikachu"
+                "pichu",
+                "pikachu",
+                "raichu"
             ]
         },
         {
@@ -535,6 +579,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/26.ogg"
             },
             "evolutionChains": [
+                "pichu",
+                "pikachu",
                 "raichu"
             ]
         },
@@ -555,7 +601,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/27.ogg"
             },
             "evolutionChains": [
-                "sandshrew"
+                "sandshrew",
+                "sandslash"
             ]
         },
         {
@@ -575,6 +622,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/28.ogg"
             },
             "evolutionChains": [
+                "sandshrew",
                 "sandslash"
             ]
         },
@@ -596,7 +644,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/29.ogg"
             },
             "evolutionChains": [
-                "nidoran-f"
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
             ]
         },
         {
@@ -617,7 +667,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/30.ogg"
             },
             "evolutionChains": [
-                "nidorina"
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
             ]
         },
         {
@@ -639,6 +691,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/31.ogg"
             },
             "evolutionChains": [
+                "nidoran-f",
+                "nidorina",
                 "nidoqueen"
             ]
         },
@@ -660,7 +714,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/32.ogg"
             },
             "evolutionChains": [
-                "nidoran-m"
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
             ]
         },
         {
@@ -681,7 +737,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/33.ogg"
             },
             "evolutionChains": [
-                "nidorino"
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
             ]
         },
         {
@@ -703,6 +761,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/34.ogg"
             },
             "evolutionChains": [
+                "nidoran-m",
+                "nidorino",
                 "nidoking"
             ]
         },
@@ -724,7 +784,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/35.ogg"
             },
             "evolutionChains": [
-                "clefairy"
+                "cleffa",
+                "clefairy",
+                "clefable"
             ]
         },
         {
@@ -745,6 +807,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/36.ogg"
             },
             "evolutionChains": [
+                "cleffa",
+                "clefairy",
                 "clefable"
             ]
         },
@@ -765,7 +829,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/37.ogg"
             },
             "evolutionChains": [
-                "vulpix"
+                "vulpix",
+                "ninetales"
             ]
         },
         {
@@ -785,6 +850,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/38.ogg"
             },
             "evolutionChains": [
+                "vulpix",
                 "ninetales"
             ]
         },
@@ -807,7 +873,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/39.ogg"
             },
             "evolutionChains": [
-                "jigglypuff"
+                "igglybuff",
+                "jigglypuff",
+                "wigglytuff"
             ]
         },
         {
@@ -829,6 +897,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/40.ogg"
             },
             "evolutionChains": [
+                "igglybuff",
+                "jigglypuff",
                 "wigglytuff"
             ]
         },
@@ -850,7 +920,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/41.ogg"
             },
             "evolutionChains": [
-                "zubat"
+                "zubat",
+                "golbat",
+                "crobat"
             ]
         },
         {
@@ -871,7 +943,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/42.ogg"
             },
             "evolutionChains": [
-                "golbat"
+                "zubat",
+                "golbat",
+                "crobat"
             ]
         },
         {
@@ -892,7 +966,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/43.ogg"
             },
             "evolutionChains": [
-                "oddish"
+                "oddish",
+                "gloom",
+                "vileplume",
+                "bellossom"
             ]
         },
         {
@@ -913,7 +990,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/44.ogg"
             },
             "evolutionChains": [
-                "gloom"
+                "oddish",
+                "gloom",
+                "vileplume",
+                "bellossom"
             ]
         },
         {
@@ -934,7 +1014,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/45.ogg"
             },
             "evolutionChains": [
-                "vileplume"
+                "oddish",
+                "gloom",
+                "vileplume",
+                "bellossom"
             ]
         },
         {
@@ -956,7 +1039,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/46.ogg"
             },
             "evolutionChains": [
-                "paras"
+                "paras",
+                "parasect"
             ]
         },
         {
@@ -978,6 +1062,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/47.ogg"
             },
             "evolutionChains": [
+                "paras",
                 "parasect"
             ]
         },
@@ -1000,7 +1085,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/48.ogg"
             },
             "evolutionChains": [
-                "venonat"
+                "venonat",
+                "venomoth"
             ]
         },
         {
@@ -1022,6 +1108,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/49.ogg"
             },
             "evolutionChains": [
+                "venonat",
                 "venomoth"
             ]
         },
@@ -1043,7 +1130,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg"
             },
             "evolutionChains": [
-                "diglett"
+                "diglett",
+                "dugtrio"
             ]
         },
         {
@@ -1064,6 +1152,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/51.ogg"
             },
             "evolutionChains": [
+                "diglett",
                 "dugtrio"
             ]
         },
@@ -1085,7 +1174,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/52.ogg"
             },
             "evolutionChains": [
-                "meowth"
+                "meowth",
+                "persian",
+                "perrserker"
             ]
         },
         {
@@ -1106,7 +1197,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/53.ogg"
             },
             "evolutionChains": [
-                "persian"
+                "meowth",
+                "persian",
+                "perrserker"
             ]
         },
         {
@@ -1127,7 +1220,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/54.ogg"
             },
             "evolutionChains": [
-                "psyduck"
+                "psyduck",
+                "golduck"
             ]
         },
         {
@@ -1148,6 +1242,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/55.ogg"
             },
             "evolutionChains": [
+                "psyduck",
                 "golduck"
             ]
         },
@@ -1169,7 +1264,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/56.ogg"
             },
             "evolutionChains": [
-                "mankey"
+                "mankey",
+                "primeape",
+                "annihilape"
             ]
         },
         {
@@ -1190,7 +1287,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/57.ogg"
             },
             "evolutionChains": [
-                "primeape"
+                "mankey",
+                "primeape",
+                "annihilape"
             ]
         },
         {
@@ -1211,7 +1310,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/58.ogg"
             },
             "evolutionChains": [
-                "growlithe"
+                "growlithe",
+                "arcanine"
             ]
         },
         {
@@ -1232,6 +1332,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/59.ogg"
             },
             "evolutionChains": [
+                "growlithe",
                 "arcanine"
             ]
         },
@@ -1253,7 +1354,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/60.ogg"
             },
             "evolutionChains": [
-                "poliwag"
+                "poliwag",
+                "poliwhirl",
+                "poliwrath",
+                "politoed"
             ]
         },
         {
@@ -1274,7 +1378,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/61.ogg"
             },
             "evolutionChains": [
-                "poliwhirl"
+                "poliwag",
+                "poliwhirl",
+                "poliwrath",
+                "politoed"
             ]
         },
         {
@@ -1296,7 +1403,10 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/62.ogg"
             },
             "evolutionChains": [
-                "poliwrath"
+                "poliwag",
+                "poliwhirl",
+                "poliwrath",
+                "politoed"
             ]
         },
         {
@@ -1317,7 +1427,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/63.ogg"
             },
             "evolutionChains": [
-                "abra"
+                "abra",
+                "kadabra",
+                "alakazam"
             ]
         },
         {
@@ -1338,7 +1450,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/64.ogg"
             },
             "evolutionChains": [
-                "kadabra"
+                "abra",
+                "kadabra",
+                "alakazam"
             ]
         },
         {
@@ -1359,6 +1473,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/65.ogg"
             },
             "evolutionChains": [
+                "abra",
+                "kadabra",
                 "alakazam"
             ]
         },
@@ -1380,7 +1496,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/66.ogg"
             },
             "evolutionChains": [
-                "machop"
+                "machop",
+                "machoke",
+                "machamp"
             ]
         },
         {
@@ -1401,7 +1519,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/67.ogg"
             },
             "evolutionChains": [
-                "machoke"
+                "machop",
+                "machoke",
+                "machamp"
             ]
         },
         {
@@ -1422,6 +1542,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/68.ogg"
             },
             "evolutionChains": [
+                "machop",
+                "machoke",
                 "machamp"
             ]
         },
@@ -1443,7 +1565,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/69.ogg"
             },
             "evolutionChains": [
-                "bellsprout"
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
             ]
         },
         {
@@ -1464,7 +1588,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/70.ogg"
             },
             "evolutionChains": [
-                "weepinbell"
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
             ]
         },
         {
@@ -1485,6 +1611,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/71.ogg"
             },
             "evolutionChains": [
+                "bellsprout",
+                "weepinbell",
                 "victreebel"
             ]
         },
@@ -1507,7 +1635,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/72.ogg"
             },
             "evolutionChains": [
-                "tentacool"
+                "tentacool",
+                "tentacruel"
             ]
         },
         {
@@ -1529,6 +1658,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/73.ogg"
             },
             "evolutionChains": [
+                "tentacool",
                 "tentacruel"
             ]
         },
@@ -1551,7 +1681,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/74.ogg"
             },
             "evolutionChains": [
-                "geodude"
+                "geodude",
+                "graveler",
+                "golem"
             ]
         },
         {
@@ -1573,7 +1705,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/75.ogg"
             },
             "evolutionChains": [
-                "graveler"
+                "geodude",
+                "graveler",
+                "golem"
             ]
         },
         {
@@ -1595,6 +1729,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/76.ogg"
             },
             "evolutionChains": [
+                "geodude",
+                "graveler",
                 "golem"
             ]
         },
@@ -1616,7 +1752,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/77.ogg"
             },
             "evolutionChains": [
-                "ponyta"
+                "ponyta",
+                "rapidash"
             ]
         },
         {
@@ -1637,6 +1774,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/78.ogg"
             },
             "evolutionChains": [
+                "ponyta",
                 "rapidash"
             ]
         },
@@ -1659,7 +1797,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/79.ogg"
             },
             "evolutionChains": [
-                "slowpoke"
+                "slowpoke",
+                "slowbro",
+                "slowking"
             ]
         },
         {
@@ -1681,7 +1821,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/80.ogg"
             },
             "evolutionChains": [
-                "slowbro"
+                "slowpoke",
+                "slowbro",
+                "slowking"
             ]
         },
         {
@@ -1703,7 +1845,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/81.ogg"
             },
             "evolutionChains": [
-                "magnemite"
+                "magnemite",
+                "magneton",
+                "magnezone"
             ]
         },
         {
@@ -1725,7 +1869,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/82.ogg"
             },
             "evolutionChains": [
-                "magneton"
+                "magnemite",
+                "magneton",
+                "magnezone"
             ]
         },
         {
@@ -1747,7 +1893,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/83.ogg"
             },
             "evolutionChains": [
-                "farfetchd"
+                "farfetchd",
+                "sirfetchd"
             ]
         },
         {
@@ -1769,7 +1916,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/84.ogg"
             },
             "evolutionChains": [
-                "doduo"
+                "doduo",
+                "dodrio"
             ]
         },
         {
@@ -1791,6 +1939,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/85.ogg"
             },
             "evolutionChains": [
+                "doduo",
                 "dodrio"
             ]
         },
@@ -1812,7 +1961,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/86.ogg"
             },
             "evolutionChains": [
-                "seel"
+                "seel",
+                "dewgong"
             ]
         },
         {
@@ -1834,6 +1984,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/87.ogg"
             },
             "evolutionChains": [
+                "seel",
                 "dewgong"
             ]
         },
@@ -1855,7 +2006,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/88.ogg"
             },
             "evolutionChains": [
-                "grimer"
+                "grimer",
+                "muk"
             ]
         },
         {
@@ -1876,6 +2028,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/89.ogg"
             },
             "evolutionChains": [
+                "grimer",
                 "muk"
             ]
         },
@@ -1897,7 +2050,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/90.ogg"
             },
             "evolutionChains": [
-                "shellder"
+                "shellder",
+                "cloyster"
             ]
         },
         {
@@ -1919,6 +2073,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/91.ogg"
             },
             "evolutionChains": [
+                "shellder",
                 "cloyster"
             ]
         },
@@ -1939,7 +2094,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/92.ogg"
             },
             "evolutionChains": [
-                "gastly"
+                "gastly",
+                "haunter",
+                "gengar"
             ]
         },
         {
@@ -1959,7 +2116,9 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/93.ogg"
             },
             "evolutionChains": [
-                "haunter"
+                "gastly",
+                "haunter",
+                "gengar"
             ]
         },
         {
@@ -1979,6 +2138,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/94.ogg"
             },
             "evolutionChains": [
+                "gastly",
+                "haunter",
                 "gengar"
             ]
         },
@@ -2001,7 +2162,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/95.ogg"
             },
             "evolutionChains": [
-                "onix"
+                "onix",
+                "steelix"
             ]
         },
         {
@@ -2022,7 +2184,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/96.ogg"
             },
             "evolutionChains": [
-                "drowzee"
+                "drowzee",
+                "hypno"
             ]
         },
         {
@@ -2043,6 +2206,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/97.ogg"
             },
             "evolutionChains": [
+                "drowzee",
                 "hypno"
             ]
         },
@@ -2064,7 +2228,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/98.ogg"
             },
             "evolutionChains": [
-                "krabby"
+                "krabby",
+                "kingler"
             ]
         },
         {
@@ -2085,6 +2250,7 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/99.ogg"
             },
             "evolutionChains": [
+                "krabby",
                 "kingler"
             ]
         },
@@ -2106,7 +2272,8 @@
                 "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/100.ogg"
             },
             "evolutionChains": [
-                "voltorb"
+                "voltorb",
+                "electrode"
             ]
         }
     ]

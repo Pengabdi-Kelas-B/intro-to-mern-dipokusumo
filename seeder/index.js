@@ -30,8 +30,6 @@ async function main() {
 
   const Movie = mongoose.model('Movie', movieSchema);
 
-  module.exports = Movie;
-
   switch (command) {
     case "check-db-connection":
       await checkConnection();
