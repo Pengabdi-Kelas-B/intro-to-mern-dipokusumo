@@ -9,7 +9,7 @@
     "generate:db": "node generateJsonDB.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "M Dipo Alam Kusumo",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.7",
