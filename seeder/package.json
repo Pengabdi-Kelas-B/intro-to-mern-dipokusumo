@@ -6,17 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check-db-connection": "node index.js check-db-connection",
-    "reset-db": "",
-    "bulk-insert": "",
-    "get-all": ""
+    "reset-db": "node index.js reset-db",
+    "bulk-insert": "node index.js bulk-insert",
+    "get-all": "node index.js get-all"
   },
   "keywords": [],
-  "author": "",
+  "author": "M DIpo Alam Kusumo",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "json-server": "^1.0.0-beta.3",
-    "mongoose": "^8.7.1"
+    "mongoose": "^8.7.2"
   }
 }
