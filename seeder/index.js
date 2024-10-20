@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const fs = require('fs');
 require("dotenv").config();
 
 async function main() {
@@ -18,16 +19,34 @@ async function main() {
   });
 
   // Define a schema for the collection
-  const schema = new mongoose.Schema({}, { strict: false });
-  const Model = mongoose.model(collection, schema);
+  const movieSchema = new mongoose.Schema({
+    title: String,
+    year: Number,
+    genre: Array,
+    description: String,
+    director: String,
+    cast: Array
+  }, { collection: collection, strict: false });
+
+  const Movie = mongoose.model('Movie', movieSchema);
+
+  module.exports = Movie;
 
   switch (command) {
     case "check-db-connection":
       await checkConnection();
       break;
-    // TODO: Buat logic fungsionalitas yg belum tersedia di bawah
+    case "reset-db":
+      await resetDB(Movie);
+      break;
+    case "bulk-insert":
+      await bulkInsert(Movie);
+      break;
+    case "get-all":
+      await getAll(Movie);
+      break;
     default:
-      throw Error("command not found");
+      throw Error("Command not found. Use: check-db-connection, reset-db, bulk-insert, or get-all");
   }
 
   await mongoose.disconnect();
@@ -43,6 +62,34 @@ async function checkConnection() {
     console.error("MongoDB connection failed:", err);
   }
   console.log("check db connection ended...");
+}
+
+async function resetDB(Movie) {
+  try {
+    await Movie.deleteMany({});
+    console.log('Database has been reset!');
+  } catch (err) {
+    console.error('Failed to reset the database:', err);
+  }
+}
+
+async function bulkInsert(Movie) {
+  try {
+    const data = JSON.parse(fs.readFileSync('./seed.json', 'utf-8'));
+    await Movie.insertMany(data);
+    console.log('Bulk insert successful!');
+  } catch (err) {
+    console.error('Bulk insert failed:', err);
+  }
+};
+
+async function getAll(Movie) {
+  try {
+    const movies = await Movie.find({});
+    console.log('All Movies:', movies);
+  } catch (err) {
+    console.error('Failed to get all data:', err);
+  }
 }
 
 main();
